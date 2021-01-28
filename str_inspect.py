@@ -6,4 +6,6 @@ CPSC 223P-01
 joates@fullerton.edu
 """
 
+import sys
+
 # This is my second Python program. It inspects strings.
