@@ -13,10 +13,12 @@ Your software will read a sentence from the command line, identify the longest a
   Longest word: thoroughly    
   It is 10 characters
   
-Notice that there are several words that are 3 characters in length and are "tied" for the shortest word.  Use the first one (in this case, "for") and ignore the others.  The same applies to the longest word if there are more than one with the same character count.  Also, if the shortest word is a single character ("a", or "I"), make sure the word "character" is not plural! (i.e. "Shortest word: a\n It is 1 character...")
+Notice that there are several words that are 3 characters in length and are "tied" for the shortest word.  Use the first one (in this case, "for") and ignore the others.  The same applies to the longest word if there are more than one with the same character count.  Also, if the shortest word is a single character ("a", or "I"), make sure the word "character" is not plural! For example:
+  >Shortest word: a    
+  It is 1 character
 
 # Specification
 
 First, download the project to your local workstation.  I recommend using a source code repository interface such as GitHub Desktop. Start with the template file called str_inspect.py. Modify the header to include your own information, and update the code to meet the requirements. (Hint: you will need to "import sys" and use sys.argv to access the command line). When you are satisfied with your changes, commit them to the repository.
 
-After your code is committed to your GitHub repository, go to your account on GradeScope and find the assignment called Lab-02 - Strings. Under "Submission Method" select GitHub. You will need to point to the correct repository (called something like joates-223p-spring-2021/lab-02-<your user name>).  You may be asked to link your GitHub account with Gradescope at this time.  Next select the Main branch and press Upload. Gradescope will import your project files from GitHub and automatically grade them.  If you like what you see, you are done.  If not, you can make changes and use the Resumbit button on the bottom right of the Gradescope page to try again.
+After your code is committed to your GitHub repository, go to your account on GradeScope and find the assignment called Lab-02 - Strings. Under "Submission Method" select GitHub. You will need to point to the correct repository (called something like joates-223p-spring-2021/lab-02-_your user name_).  You may be asked to link your GitHub account with Gradescope at this time.  Next select the Main branch and press Upload. Gradescope will import your project files from GitHub and automatically grade them.  If you like what you see, you are done.  If not, you can make changes and use the Resumbit button on the bottom right of the Gradescope page to try again.
